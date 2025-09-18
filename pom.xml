@@ -63,8 +63,9 @@
                 <version>${azure.functions.maven.plugin.version}</version>
                 <configuration>
                     <schemaVersion>2.0</schemaVersion>
-                    <resourceGroup>rg-azure-flex-function</resourceGroup>
-                    <appName>azure-flex-function</appName>
+                    <resourceGroup>RSG_CHK</resourceGroup>
+                    <appName>flexcomsunp01</appName>
+                    <functionAppName>flexcomsunp01</functionAppName>
                     <region>East US</region>
                     <runtime>
                         <os>linux</os>
